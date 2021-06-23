@@ -1,0 +1,16 @@
+,,Real Classes,KMeans,MeanShift,SpectralClustering,DBSCAN,FastDensityPeaks,FastDensityPeaks(autoassign),FastDensityPeaks(with halo)
+Credit Approval,Accuracy,1.0,0.729,0.56,0.79,0.09,0.796,0.204,0.152
+Credit Approval,Davies Bouldin,2.534,1.958,1.449,1.986,1.009,2.026,2.026,0.884
+Credit Approval,Silhouette,0.13,0.196,0.111,0.193,0.417,0.174,0.174,0.498
+Credit Approval,Calinksi,96.266,160.779,28.525,156.718,110.847,140.313,140.313,127.55
+Credit Approval,Time,0.0,0.039,0.927,0.061,0.014,0.031,0.033,0.032
+Banknote,Accuracy,1.0,0.424,0.633,0.624,0.896,0.977,0.977,0.008
+Banknote,Davies Bouldin,1.816,1.191,0.998,1.171,0.818,1.781,1.781,0.121
+Banknote,Silhouette,0.21,0.331,0.313,0.322,0.048,0.214,0.214,0.749
+Banknote,Calinksi,345.565,822.071,696.874,778.792,107.437,358.665,358.665,49.87
+Banknote,Time,0.0,0.058,0.673,0.229,0.014,0.141,0.137,0.128
+Pendigits,Accuracy,1.0,0.126,0.056,0.074,0.083,0.083,0.073,0.033
+Pendigits,Davies Bouldin,2.321,1.269,1.126,1.145,1.025,1.048,1.564,0.424
+Pendigits,Silhouette,0.181,0.319,0.296,0.32,0.16,0.25,0.229,0.533
+Pendigits,Calinksi,1404.466,2826.148,1743.145,2674.443,951.302,1555.922,2541.264,870.33
+Pendigits,Time,0.0,0.349,5.511,19.992,0.976,2.305,2.374,2.34
