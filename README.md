@@ -1,7 +1,7 @@
 # FastDensityPeak
 Python highly optimized implementation of _Clustering by fast search and find of density peaks_ (2014)
 
-It's main idea is to find the density (rho) and the minimum realtive distance (delta) of all the isntances. Plotting delta as a function of rho, the plot's outliers are the centroids. Each point is assigned to the centroid of it's nearest neighbour, starting from the points with highest density.
+Its main idea is to find the density (rho) and the minimum realtive distance (delta) of all the isntances. Plotting delta as a function of rho, the plot's outliers are the centroids. Each point is assigned to the centroid of it's nearest neighbour, starting from the points with highest density.
 
 It is well known for requiring almost no hyperparameter optimization, while being time-effiecient and robust in retriving clusters of any shape. However, most of the implementations in python are very slow because they just copy-paste the original MATLAB code of the authors. The fastest require cython.
 
